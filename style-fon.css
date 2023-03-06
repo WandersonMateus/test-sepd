@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+#span-1{
+    color: rgb(0, 0, 0);
+}
+
+.grup-icon{
+    position: relative;
+    z-index: 1;
+}
+.icon{
+    position: absolut;
+    margin: 15px;
+}
+
+.cabecalho{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -50px;
+}
+
+.menu{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: -20px 0px 70px 0px;
+}
+.menu-1{
+    background-color: rgb(204, 232, 232);
+    width: 160px;
+    height: 50px;
+    border-radius: 50px;
+}
+.menu-2{
+    background-color: rgb(44, 162, 162);
+    /* background-color: rgb(255, 43, 189); */
+    width: 160px;
+    height: 50px;
+    border-radius: 50px;
+}
+#span-1, #span-2{
+    position: relative;
+    font-size: 20px;
+    top: 15px;
+}
+
+/* FORMATÇÃO DE TEXTO */
+p{
+    text-align: justify;
+    text-indent: 40px;
+    color: rgb(212, 215, 229);
+    font-size: 20px;
+}
+.conteiner{
+    align-items: center;
+    justify-content: center;
+    max-width: 340px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-principal{
+    text-align: center;
+    margin: -30px auto 10px auto;
+    color: rgb(10, 128, 255);
+}
+
+.title-secundario{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    color: rgb(10, 128, 255);
+}
+.caixa h2{
+    padding: 10px;
+    color: rgb(27, 178, 178);
+}
+
+.importante{
+    /* color: rgb(221, 255, 0); */
+    text-decoration: underline rgb(0, 255, 225);
+}
+.exemplo{
+    border: 2px solid rgb(137, 147, 155);
+    border-radius: 5px;
+    margin: 20px auto 50px auto;
+    padding: 20px;
+}
+.ex{
+    position: relative;
+    left: -50px;
+    color: rgb(20, 233, 66);
+}
+.seta-para-direita{
+    position: relative;
+    left: -50px;
+    color: brown;
+    top: -2px;
+}
+
+/* FORMATÇÃO DE TEXTO */
+
+ /* FORMATAÇÃO DOS TOPICOS */
+@media (prefers-reduced-motion:no-preference) {
+    :root {
+        scroll-behavior: smooth
+    }
+}
+.topicos h2{
+    color: rgb(255, 136, 0);
+}
+
+.topicos ul{
+    position: relative;
+    left: 50px;
+    color: rgb(255, 136, 0);
+    width: 200px;
+}
+.topicos a{
+    color: rgb(144, 144, 181);
+}
+
+.topicos li{
+    padding: 10px;
+    width: 200px;
+}
+ /* FORMATAÇÃO DOS TOPICOS */
+
+/* FORMATÇÃO DE TABELA */
+table, td, th {
+    border: 2px solid;
+    border-color: rgb(137, 147, 155);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.caixa-tabela{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.coluna-1{
+    width: 10px;
+    padding: 10px;
+    color: rgb(0, 178, 223);
+    font-weight: bolder;
+}
+.coluna-2{
+    color: rgb(222, 222, 222);
+    font-weight: bolder;
+}
+.tabela-title{
+    text-align: center;
+    margin: 50px auto 5px auto;
+    border: 2px solid rgb(222, 222, 222);
+    padding: 3px;
+}
+._cor{
+    color: rgb(251, 116, 116);
+}
+
+/* FORMATÇÃO DE TABELA */
+
+/* FORMATAÇÃO PARA DESKTOP */
+@media screen and (min-width: 600px) {
+    .conteiner{
+        max-width: 40rem;
+    }
+
+.menu-1{
+    position: absolute;
+    margin: 0px -100px 20px -250px;
+}
+.menu-2{
+    position: absolute;
+    margin: 0px 20px 200px 90px;
+}
+}
+
+@media screen and (min-width: 1120px) {
+    .conteiner{
+        max-width: 70rem;
+    }
+
+.menu-1{
+    position: absolute;
+    margin: 0px -100px 20px -250px;
+}
+.menu-2{
+    position: absolute;
+    margin: 0px 20px 200px 90px;
+}
+}
