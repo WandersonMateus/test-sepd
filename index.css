@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Source+Code+Pro&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -16,33 +14,17 @@ a{
     color: white;
 }
 
-.grup-icon{
-    position: relative;
-}
-.icon{
-    position: absolute;
-    margin: 15px;
-}
-
 .cabecalho{
-    position: relative;
-    top: 50px;
-}
-.title{
     text-align: center;
     align-items: center;
     justify-content: center;
-}
-h1{
-    font-size: 40px;
-    font-family: 'Dosis', sans-serif;
-    font-family: 'Source Code Pro', monospace;
+    position: relative;
+    top: 20px;
+    font-size: 19px;
 }
 #introducao{
-    color: rgb(227, 205, 222);
-    margin: 0px 30px 0px 30px;
+    margin: 0px 20px 0px 20px;
 }
-
 
 .conteiner{
     position: relative;
@@ -55,55 +37,11 @@ h1{
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: rgb(44, 162, 162);
-    border-radius: 100px;
-    border-radius: 50%;
-    width: 80px;
+    background-color: rgb(48, 157, 171);
+    border-radius: 10px;
+    width: 110px;
     height: 80px;
-}
-.back-radiuns-2{
-    position: relative;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(255, 43, 189);
-    border-radius: 100px;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-}
-.back-radiuns-3{
-    position: relative;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(148, 58, 179);
-    border-radius: 100px;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-}
-.back-radiuns-4{
-    position: relative;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(88, 186, 58);
-    border-radius: 100px;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-}
-.back-radiuns-5{
-    position: relative;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(255, 200, 1);
-    border-radius: 100px;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    box-shadow: 2px 2px 5px .9px rgb(13, 119, 158);
 }
 #title-1, #title-2, #title-3, #title-4, #title-5{
     font-size: 50px;
@@ -113,49 +51,106 @@ h1{
     font-family: arial;
 }
 
-/* mini title */
 .mini-title-1{
     position: relative;
     font-size: 30px;
-    left: 100px;
-    top: -70px;
-    color: rgb(44, 162, 162);
+    left: 140px;
+    top: -85px;
+    color: rgb(189, 89, 89);
 }
 .mini-title-2{
     position: relative;
     font-size: 30px;
-    left: 100px;
-    top: -70px;
-    color: rgb(255, 43, 189);
+    left: 140px;
+    top: -85px;
+    color: rgb(117, 162, 44);
 }
 .mini-title-3{
     position: relative;
     font-size: 30px;
-    left: 100px;
-    top: -70px;
-    color: rgb(148, 58, 179);
+    left: 140px;
+    top: -85px;
+    color: rgb(162, 44, 91);
 }
 .mini-title-4{
     position: relative;
     font-size: 30px;
-    left: 100px;
-    top: -70px;
-    color: rgb(88, 186, 58);
+    left: 140px;
+    top: -85px;
+    color: rgb(162, 111, 44);
 }
 .mini-title-5{
     position: relative;
     font-size: 30px;
-    left: 100px;
-    top: -70px;
-    color: rgb(255, 200, 1);
+    left: 140px;
+    top: -85px;
+    color: rgb(222, 237, 135);
 }
-/* mini title */
+
+.mini-title-6{
+    position: relative;
+    font-size: 30px;
+    left: 140px;
+    top: -85px;
+    color: rgb(3, 117, 211);
+}
+.mini-title-7{
+    position: relative;
+    font-size: 30px;
+    left: 140px;
+    top: -85px;
+    color: rgb(158, 1, 206);
+}
 
 .descricao{
     position: relative;
     max-width: 200px;
-    left: 120px;
-    top: -60px;
+    left: 150px;
+    top: -80px;
     color: rgb(207, 207, 207);
     font-style: italic;
 }
+#title-1{
+    color: rgb(189, 89, 89);
+}
+#title-2{
+    color: rgb(87, 140, 3);
+}
+#title-3{
+    color: rgb(162, 44, 91);
+}
+#title-4{
+    color: rgb(162, 111, 44);
+}
+#title-5{
+    color: rgb(222, 237, 135);
+
+}
+#title-6{
+    color: rgb(3, 94, 168);
+    font-size: 55px;
+    top: 10px;
+    position: relative;
+}
+#title-7{
+    color: rgb(158, 1, 206);
+    font-size: 55px;
+    top: 10px;
+    position: relative;
+}
+
+.separar{
+    /* position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center; */
+    margin: -30px auto 50px auto;
+}
+.linha{
+    position: absolute;
+    width: 350px;
+    border: 1px solid #6d6d6d;
+    /* left: 0px; */
+    margin: auto;
+}
+
