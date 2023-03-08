@@ -114,6 +114,17 @@ p{
     top: -2px;
 }
 
+.ul-vogal {
+    position: relative;
+    max-width: 250px;
+    padding: 10px;
+    left: 20px;
+    color: rgb(251, 219, 237);
+}
+.ul-vogal-negrito{
+    color: rgb(129, 207, 229);
+}
+
 /* FORMATÇÃO DE TEXTO */
 
  /* FORMATAÇÃO DOS TOPICOS */
@@ -178,6 +189,9 @@ table {
 }
 ._cor{
     color: rgb(251, 116, 116);
+}
+._cor-1{
+    color: rgb(255, 184, 184);
 }
 
 /* FORMATÇÃO DE TABELA */
