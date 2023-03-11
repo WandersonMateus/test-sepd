@@ -93,9 +93,12 @@ p{
 }
 
 .importante{
-    /* color: rgb(221, 255, 0); */
     text-decoration: underline rgb(0, 255, 225);
 }
+.importante-color{
+    color: rgb(251, 125, 116);
+}
+
 .exemplo{
     border: 2px solid rgb(137, 147, 155);
     border-radius: 5px;
