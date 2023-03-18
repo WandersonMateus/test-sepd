@@ -238,6 +238,29 @@ table {
 }
 
 /* ????? */
-.pointer {
-    width: 500px;
+.title-video {
+    background-color: rgb(122, 122, 122);
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    margin: 0px auto 20px 20px;
+}
+.title-video {
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+iframe {
+    display: none;
+    width: 600px;
+    height: 338px;
+    margin: 20px auto 20px auto;
+}
+
+.video-1 {
+    display: none;
+}
+
+.video-1:checked + .clique iframe {
+    display: block;
 }
