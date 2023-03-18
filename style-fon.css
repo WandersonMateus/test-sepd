@@ -206,6 +206,37 @@ table {
 
 /* FORMATÇÃO DE TABELA */
 
+
+/* FORMATAÇÃO DE VIDEO AULA */
+.title-video {
+    background-color: rgb(122, 122, 122);
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    margin: 0px auto 20px 10px;
+}
+.title-video {
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 15px;
+}
+
+iframe {
+    display: none;
+    width: 320px;
+    height: 179px;
+    margin: 20px auto 20px auto;
+}
+
+.video-1 {
+    display: none;
+}
+
+.video-1:checked + .clique iframe {
+    display: block;
+}
+/* FORMATAÇÃO DE VIDEO AULA */
+
 /* FORMATAÇÃO PARA DESKTOP */
 @media screen and (min-width: 600px) {
     .conteiner{
@@ -219,6 +250,11 @@ table {
 .menu-2{
     position: absolute;
     margin: 0px 20px 200px 90px;
+}
+
+iframe {
+    width: 600px;
+    height: 340px;
 }
 }
 
@@ -235,32 +271,9 @@ table {
     position: absolute;
     margin: 0px 20px 200px 90px;
 }
-}
-
-/* ????? */
-.title-video {
-    background-color: rgb(122, 122, 122);
-    border-radius: 20px;
-    width: 200px;
-    text-align: center;
-    margin: 0px auto 20px 20px;
-}
-.title-video {
-    color: rgb(255, 255, 255);
-    padding: 5px;
-}
 
 iframe {
-    display: none;
-    width: 320px;
-    height: 179px;
-    margin: 20px auto 20px auto;
+    width: 70rem;
+    height: 630px;
 }
-
-.video-1 {
-    display: none;
-}
-
-.video-1:checked + .clique iframe {
-    display: block;
 }
