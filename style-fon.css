@@ -96,6 +96,9 @@ p{
 .importante{
     text-decoration: underline rgb(0, 255, 225);
 }
+.linha-resposta{
+    text-decoration: underline rgb(202, 111, 7);
+}
 .importante-color{
     color: rgb(251, 125, 116);
 }
@@ -273,7 +276,7 @@ iframe {
     display: block;
 }
 
-/*  */
+/* PERGUNTAS */
 .container-atividade {
     display: none;
 }
@@ -299,6 +302,7 @@ iframe {
     color: rgb(95, 35, 89);
     padding-left: 5px;
     cursor: pointer;
+    max-width: 300px;
 }
 
 .input {
@@ -341,6 +345,7 @@ iframe {
 
 .pergunta-1 {
     display: flex;
+    position: relative;
     align-items: center;
 }
 /* RESPOSTA */
