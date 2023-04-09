@@ -85,12 +85,14 @@ p{
 
 .title-secundario{
     text-align: center;
+    font-size: 36px;
     padding: 20px 0px 20px 0px;
     color: rgb(10, 128, 255);
 }
 .caixa h2{
     padding: 10px;
     color: rgb(27, 178, 178);
+    font-size: 28px;
 }
 
 .importante{
